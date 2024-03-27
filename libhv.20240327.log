@@ -1,0 +1,5 @@
+2024-03-27 17:18:28.387 INFO  http server listening on 0.0.0.0:8089 [HttpServer.cpp:178:http_server_run]
+2024-03-27 17:18:28.387 INFO  EventLoop started, pid=2426538 tid=2426538 [HttpServer.cpp:151:loop_thread]
+2024-03-27 17:18:47.740 INFO  [2426538-2426538][127.0.0.1:34008][GET /ping]=>[200 OK] [HttpHandler.cpp:328:onMessageComplete]
+2024-03-27 17:19:22.889 INFO  [2426538-2426538][127.0.0.1:34010][GET /data]=>[200 OK] [HttpHandler.cpp:328:onMessageComplete]
+2024-03-27 17:19:29.085 INFO  [2426538-2426538][127.0.0.1:34012][GET /paths]=>[200 OK] [HttpHandler.cpp:328:onMessageComplete]

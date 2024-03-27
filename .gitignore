@@ -1,0 +1,4 @@
+# Bazel
+bazel-*
+MODULE.bazel
+MODULE.bazel.lock
