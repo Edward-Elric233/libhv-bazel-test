@@ -33,12 +33,15 @@ To use libhv in your own Bazel project:
 ```python
 git_repository(
     name = "libhv",
-    remote = "https://github.com/Edward-Elric233/libhv.git",
-    branch = "feature/bazel",
+    remote = "https://github.com/ithewei/libhv.git",
+    branch = "master",
 )
 ```
 
-2. In your `BUILD` file, add `@libhv` to the `deps` attribute of your `cc_binary` or `cc_library` rule:
+2. Create a .bazelrc file in your project root directory and add content to set up the config_setting (you can directly use the .bazelrc file from this project for convenience)
+
+
+3. In your `BUILD` file, add `@libhv` to the `deps` attribute of your `cc_binary` or `cc_library` rule:
 
 ```python
 cc_binary(

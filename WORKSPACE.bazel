@@ -2,6 +2,6 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
 git_repository(
     name = "libhv",
-    remote = "https://github.com/Edward-Elric233/libhv",
-    commit = "127d80c88214447b088d04119d00f5372a8e943b",
+    remote = "https://github.com/ithewei/libhv.git",
+    branch = "master",
 )
